@@ -1,7 +1,9 @@
 package net.alvin.tutorialmod;
 
 import net.alvin.tutorialmod.block.ModBlocks;
+import net.alvin.tutorialmod.item.ModCreativeModeTabs;
 import net.alvin.tutorialmod.item.ModItems;
+import net.alvin.tutorialmod.util.ModTags;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
@@ -44,6 +46,7 @@ public class TutorialMod
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModCreativeModeTabs.register(modEventBus);
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -67,13 +70,7 @@ public class TutorialMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
-            event.accept(ModItems.BISCUIT);
-        }
 
-        if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
-            event.accept(ModBlocks.Biscuit_Block);
-        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

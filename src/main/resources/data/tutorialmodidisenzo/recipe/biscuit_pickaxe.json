@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "tutorialmodidisenzo:biscuit_stick"
+    },
+    "B": {
+      "item": "tutorialmodidisenzo:biscuit"
+    }
+  },
+  "pattern": [
+    "BBB",
+    " A ",
+    " A "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorialmodidisenzo:biscuit_pickaxe"
+  }
+}

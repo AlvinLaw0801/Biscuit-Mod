@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tutorialmodidisenzo:biscuit_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "tutorialmodidisenzo:biscuit"
+  }
+}

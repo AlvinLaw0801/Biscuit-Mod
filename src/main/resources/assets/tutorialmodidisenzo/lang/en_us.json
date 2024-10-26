@@ -1,5 +1,12 @@
 {
   "item.tutorialmodidisenzo.biscuit": "Biscuit",
+  "item.tutorialmodidisenzo.biscuit_stick": "Biscuit Stick",
+  "item.tutorialmodidisenzo.biscuit_pickaxe": "Biscuit Pickaxe",
 
-  "block.tutorialmodidisenzo.biscuit_block": "Block of Biscuit"
+  "block.tutorialmodidisenzo.biscuit_block": "Block of Biscuit",
+  "block.tutorialmodidisenzo.raw_biscuit_block": "Block of Raw Biscuit",
+  "block.tutorialmodidisenzo.biscuit_ore": "Biscuit Ore",
+
+  "creativetab.tutorialmodidisenzo.biscuit_items": "Biscuit Items",
+  "creativetab.tutorialmodidisenzo.biscuit_blocks": "Biscuit Blocks"
 }
