@@ -1,5 +1,6 @@
 package net.alvin.tutorialmod;
 
+import net.alvin.tutorialmod.block.ModBlocks;
 import net.alvin.tutorialmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -42,6 +43,7 @@ public class TutorialMod
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -67,6 +69,10 @@ public class TutorialMod
     {
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.BISCUIT);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+            event.accept(ModBlocks.Biscuit_Block);
         }
     }
 
